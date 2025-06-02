@@ -15,17 +15,138 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--base-dark);
+  background-color: #f4f7fb;
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.quizgenie-theme {
+  background: #f4f7fb;
+  color: var(--text-color);
+}
+
 .app {
   min-height: 100vh;
   display: flex;
+  flex-direction: row;
+  background: #f4f7fb;
+}
+
+.sidebar {
+  width: 210px;
+  min-height: 100vh;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  z-index: 110;
+  position: relative;
+}
+
+.sidebar-header {
+  padding: 24px 24px 18px 24px;
+  font-weight: 600;
+  color: var(--sidebar-fg);
+  font-size: 1.16rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebar-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1976d2;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 0 0 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 22px;
+  color: #185297;
+  text-decoration: none;
+  border-radius: 4px 25px 25px 4px;
+  font-size: 1.05rem;
+  transition: background 0.13s;
+}
+
+.sidebar-link.active,
+.sidebar-link:hover {
+  background: #e5eefc;
+  font-weight: 650;
+  color: #1976d2;
+}
+
+.sidebar-icon {
+  font-size: 1.18em;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 18px 20px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.sidebar-user {
+  font-size: 0.93em;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: start;
+}
+
+.btn.btn-small,
+.sidebar-login {
+  font-size: 0.95em;
+  background: var(--primary);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 17px;
+  border: none;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.btn.btn-small:hover,
+.sidebar-login:hover {
+  background: #105ab6;
+}
+
+.main-area {
+  flex: 1 1 auto;
+  min-height: 100vh;
+  padding: 0 0 0 0;
+  background: #f4f7fb;
+  display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+  .main-area {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* ...keep the rest */
 
 .navbar {
   background-color: var(--base-dark);
