@@ -1,9 +1,15 @@
 :root {
+  --primary: #1976d2;
+  --secondary: #ffffff;
+  --accent: #ff9800;
+  --sidebar-bg: #f7faff;
+  --sidebar-fg: #1976d2;
   --base-light: #00ffff;
   --base-dark: #00008b;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --text-color: #121212;
+  --text-secondary: rgba(40, 40, 40, 0.7);
+  --border-color: rgba(40, 30, 100, 0.07);
+  --card-bg: #ffffff;
 }
 
 body {

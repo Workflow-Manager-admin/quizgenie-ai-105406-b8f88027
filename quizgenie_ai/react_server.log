@@ -111,3 +111,32 @@ ERROR in ./src/components/Sidebar.js 6:0-66
 Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src/components'
 
 webpack compiled with 8 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 8:0-42
+Module not found: Error: Can't resolve './pages/Dashboard' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 9:0-40
+Module not found: Error: Can't resolve './pages/AuthPage' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 10:0-38
+Module not found: Error: Can't resolve './pages/Quizzes' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 11:0-38
+Module not found: Error: Can't resolve './pages/Results' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 12:0-44
+Module not found: Error: Can't resolve './pages/AdminPanel' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/App.js 13:0-46
+Module not found: Error: Can't resolve './pages/QuizSession' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src'
+
+ERROR in ./src/components/Sidebar.js 6:0-66
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/quizgenie-ai-105406-b8f88027/quizgenie_ai/src/components'
+
+webpack compiled with 8 errors
